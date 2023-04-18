@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WordScrambler
+{
+    class ProgramLearn
+    {
+        static void Main(string[] args)
+        {
+            //List<int> myList = new List<int>();
+            ////var myList = new List<int>();
+            //int[] myArray= new int[10];
+            //myArray[9] = 1;
+            //Array.Sort(myArray);
+            //Console.WriteLine(myArray[9]); 
+            //int[] myArray2 = {5,15,2,7,8,9};
+            //Array.Sort(myArray2);
+            //Console.WriteLine(myArray2[1]);
+
+
+            //for (int i = 0; i<=5; i+=2)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //var input =Console.ReadLine();
+            //Console.WriteLine("User Input is {0}",input);
+            //while (!input.Equals(String.Empty))
+            //{
+            //    input = Console.ReadLine();
+            //    if (input.Equals(String.Empty))
+            //    {
+            //        Console.WriteLine("Exiting");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("User Input is {0}", input);
+            //    }
+
+            //var input=String.Empty;
+            //do
+            //{
+            //    input = Console.ReadLine();
+            //    Console.WriteLine("User input is {0}",input);
+            //} while (!input.Equals(String.Empty));
+
+            int[] array = { 1, 2, 3, 4, 5 };
+            //foreach (var i in array)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            for (int i = 0; i <array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+
+            int index = 0;
+            while (index < array.Length)
+            {
+                Console.WriteLine(array[index]);
+                index++;
+            }
+
+
+        }
+    }
+}
