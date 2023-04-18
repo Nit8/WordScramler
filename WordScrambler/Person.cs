@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordScrambler
 {
-    class Person
+    struct Person //they are the value type and dont have the inheritance prop.
     {
 
         public string FirstName { get; set; }
