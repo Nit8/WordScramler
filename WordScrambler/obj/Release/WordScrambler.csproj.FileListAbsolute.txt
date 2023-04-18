@@ -1,0 +1,8 @@
+D:\Projects\WordScramler\WordScrambler\bin\Release\WordScrambler.exe.config
+D:\Projects\WordScramler\WordScrambler\bin\Release\WordScrambler.exe
+D:\Projects\WordScramler\WordScrambler\bin\Release\WordScrambler.pdb
+D:\Projects\WordScramler\WordScrambler\obj\Release\WordScrambler.csproj.AssemblyReference.cache
+D:\Projects\WordScramler\WordScrambler\obj\Release\WordScrambler.csproj.SuggestedBindingRedirects.cache
+D:\Projects\WordScramler\WordScrambler\obj\Release\WordScrambler.csproj.CoreCompileInputs.cache
+D:\Projects\WordScramler\WordScrambler\obj\Release\WordScrambler.exe
+D:\Projects\WordScramler\WordScrambler\obj\Release\WordScrambler.pdb
