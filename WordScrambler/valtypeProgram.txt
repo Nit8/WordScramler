@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordScrambler
 {
-    class Program
+    class ProgramLearn
     {
 
         //VALUE TYPES AND REFERENCE TYPES
