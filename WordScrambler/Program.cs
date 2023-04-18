@@ -12,17 +12,10 @@ namespace WordScrambler
         //VALUE TYPES AND REFERENCE TYPES
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.FirstName = "Nitesh";
-            person.LastName = "Jaiswal";
-            ChangeName(person);
-            Console.Write(person.FirstName);
-            Console.Write(person.LastName);
-        }
-        static void ChangeName(Person PersonToChange)
-        {
-            PersonToChange.FirstName = "Will";
-            PersonToChange.LastName = "Smith";
+            Person person = new Person("Nitesh", "Kumar");
+            Person newPerson = person ?? new Person("Default", "Person");
+            Console.WriteLine(newPerson.FirstName + " " + newPerson.LastName);
+
         }
     }
 }
