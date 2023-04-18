@@ -9,12 +9,17 @@ namespace WordScrambler
     class Program
     {
 
-        //VALUE TYPES AND REFERENCE TYPES
+        //readOnly vs Constant
+        public const string myString = "Hey There";
+        //public static readonly string myOtherString = "Hey there again";
+        public readonly string myOtherString = "Hey there again";
+
+        public readonly Person myPerson = new Person("A", "B");
         static void Main(string[] args)
         {
-            Person person = new Person("Nitesh", "Kumar");
-            Person newPerson = person ?? new Person("Default", "Person");
-            Console.WriteLine(newPerson.FirstName + " " + newPerson.LastName);
+            Program program = new Program();
+            Console.WriteLine(myString);
+            Console.WriteLine(program.myPerson.FirstName);
 
         }
     }
