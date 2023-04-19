@@ -7,7 +7,7 @@ using WordScrambler.Data;
 
 namespace WordScrambler.Workers
 {
-    class WordMatcher
+    public class WordMatcher
     {
         public List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
         {
